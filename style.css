@@ -106,3 +106,10 @@
     align-items: center;
     align-content: center;
  }
+
+ .dd{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+ }
