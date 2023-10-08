@@ -113,3 +113,36 @@
     justify-content: space-evenly;
     height: 50px;
  }
+ .ma{
+    margin-left: 80px;
+ }
+
+ .btn-learn{
+    width: 130px;
+    height: 40px;
+    background-color: #43A046;
+    color: white;
+    margin-top: 10px;
+ }
+
+ .btn-learn:hover{
+    background-color: #43A046;
+    color: white;
+ }
+
+ .align-right{
+    margin-right: 150px;
+    margin-top: 20px;
+    width: 460.1px;
+    height: 187.9px;
+ }
+
+
+
+@media (max-width: 768px) and (max-width: 991.98px) { 
+    .container-size{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
