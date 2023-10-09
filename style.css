@@ -340,8 +340,11 @@
     margin-top: -95px;
     margin-left: 25px;
     box-shadow: 1px 2px 5px #b6b6b6;
+  
+ }
 
-   
+ .rowalign{
+   margin-left: 0px;
  }
 
  /* page-8 */
@@ -385,4 +388,78 @@
    background-color:#4CAF4F ;
    width:178px ;
    height: 52px;
+}
+
+/* footer  */
+
+.footer{
+   display: flex;
+   width: 100%;
+   height: 300px;
+   background-color: #263238;
+}
+
+.left-footer{
+   background-color: #263238;
+   height: 300px;
+   width: 30%;
+   color: white;
+}
+
+.detail-footer{
+   display: flex;
+    width: 350px;
+    height: 189.67px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+.right-footer{
+   background-color: #263238;
+   height: 300px;
+   width: 70%;
+   color: white;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-items: center;
+   justify-content: space-around;
+   align-content: center;
+   align-items: start;
+}
+.social{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 176px;
+   height: 32px;
+   gap: 16px;
+}
+
+.foot-head{
+   font-weight: bold;
+}
+.para-foot{
+   color:#F5F7FA;
+}
+
+.form-control{
+   background-color: #5b5b5b;
+   border: none;
+}
+
+.form-control::placeholder{
+   color: white;
+}
+
+.svgs{
+   position: absolute;
+   margin-left: 180px;
+   margin-top: -25px;
 }
