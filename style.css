@@ -27,6 +27,11 @@
     background-color: #43A046;
     color: white;
 }
+.btn-w:hover{
+    background-color: #43A046;
+    color: white;
+}
+
 
 .containers{
     /* width: 100%;
@@ -145,4 +150,81 @@
         display: flex;
         flex-wrap: wrap;
     }
+ }
+
+
+ /* page-4 */
+
+ .bg-clrr{
+    background-color: #F5F7FA;
+    height: 202.94px;
+    width: 100%;
+ }
+
+ .left{
+    width: 375.88px;
+    height: 84.57px;
+    background-color: #F5F7FA;
+    margin-left: 200px;
+   
+ }
+
+ .alignn{
+ 
+    margin-left: 200px;
+    margin-top: 200px;
+ }
+
+ .graph{
+    width: 375.88px;
+    height: 113.84px;
+    background-color: #F5F7FA;
+
+ }
+
+ .right-box{
+    width: 50%;
+    background-color: #F5F7FA;
+    height: 202.94px;
+ }
+ .left-box{
+    width: 50%;
+    background-color: #F5F7FA;
+    height: 202.94px;
+ }
+
+ .titles{
+    font-weight: 600;
+    font-size: 25.06px;
+    line-height: 30.63px;
+ }
+
+ .h-clr{
+    color: #4CAF4F;
+ }
+
+ .hclr{
+    color: #4D4D4D;
+ }
+
+ .para{
+    font-size: 11.14px;
+    line-height: 16.71px;
+    font-weight: 400;
+ }
+
+ .num{
+    font-size: 19.49px;
+    font-weight: 700;
+    line-height: 25.06px;
+    color: #4D4D4D;
+ }
+ .nump{
+    font-size: 11.14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    color: #717171;
+ }
+ .table{
+    --bs-table-bg-state: #F5F7FA;
  }
