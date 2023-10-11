@@ -390,6 +390,11 @@
    height: 52px;
 }
 
+.btn-get:hover{
+   color: white;
+   background-color:#4CAF4F ;
+}
+
 /* footer  */
 
 .footer{
