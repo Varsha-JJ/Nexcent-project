@@ -97,10 +97,10 @@
 
 /* page-2 */
 
-.cont{
+.continer2{
     width: 100%;
     height: 700px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(107, 68, 68); */
  } 
 
  .abt{
@@ -154,14 +154,23 @@
     }
  }
 
-
+  /* page-3 */
+.container3{
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   height: 350px;
+}
  /* page-4 */
-
- .bg-clrr{
+.container4{
+   width: 100%;
+   height: 202.94px;
+   /* background-color: #4e7bbf; */
+}
+ /* .bg-clrr{
     background-color: #F5F7FA;
     height: 202.94px;
     width: 100%;
- }
+ } */
 
  .left{
     width: 375.88px;
@@ -232,7 +241,11 @@
  }
 
  /* page-5 */
-
+.container5{
+   width: 100%;
+   /* background-color: #55ff2794; */
+   height: 400px;
+}
  .card-tit{
     font-size: 25.06px;
     font-weight: 600;
@@ -260,6 +273,20 @@
     background-color: #F5F7FA;
     height: 340px;
     width: 100%;
+    padding:20px;
+ }
+
+ .container6{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 40px;
+ }
+
+ .container-left{
+   height: 250px;
+    width: 820.66px;
  }
 
  .lefts{
@@ -276,11 +303,16 @@
     background-color: #F5F7FA;
 
  }
-
+ .dds{
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+}
  .para6{
-    font-size: 11.14px;
+    font-size: 15.14px;
     font-weight:500 ;
-    line-height:16.71px ;
+    line-height:19.71px ;
     color:#717171 ;
  }
 
@@ -304,6 +336,16 @@
  }
 
  /* page-7 */
+ .container7{
+   width: 100%;
+   height: 500px;
+   /* background-color: red; */
+ }
+
+ .container7-box{
+   padding-left: 50px;
+   padding-top: 20px;
+ }
 
  .abts{
     margin-top: 30px;    
@@ -348,13 +390,19 @@
  }
 
  /* page-8 */
-
+.container8{
+   width: 100%;
+   height: 310px;
+   background-color: #F5F7FA;
+}
  .containerp{
    /* margin-top: 200px; */
    font-size: 64px;
    font-weight: 600;
  }
-
+.container-demo{
+   width: 100%;
+}
  .cardss{
    font-weight: 600;
    font-size: 20px;
@@ -373,7 +421,7 @@
  }
 
  .abtsss{
-   margin-top: 220px;
+   margin-top: 120px;
    justify-content: center;
    flex-wrap: wrap;
    flex-direction: column;
@@ -405,7 +453,7 @@
 }
 
 .left-footer{
-   background-color: #263238;
+   /* background-color: #263238; */
    height: 300px;
    width: 30%;
    color: white;
